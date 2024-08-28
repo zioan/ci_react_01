@@ -1,10 +1,12 @@
 import "./App.css";
-import StatefulGreetingWithPrevState from "./components/StatefulGreetingWithPrevState";
+import EventsClass from "./components/events/EventsClass";
+import EventsFunctional from "./components/events/EventsFunctional";
 
 function App() {
   return (
     <div className="App">
-      <StatefulGreetingWithPrevState greeting="I'm a stateful class component!" />
+      <EventsFunctional />
+      <EventsClass />
     </div>
   );
 }
