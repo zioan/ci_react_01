@@ -1,14 +1,10 @@
 import "./App.css";
-import FunctionalGreeting from "./components/FunctionalGreeting";
-import FunctionalGreetingWithProps from "./components/FunctionalGreetingWithProps";
-import StatefulGreeting from "./components/StatefulGreeting";
+import StatefulGreetingWithPrevState from "./components/StatefulGreetingWithPrevState";
 
 function App() {
   return (
     <div className="App">
-      <FunctionalGreeting />
-      <FunctionalGreetingWithProps greeting="nice to meet you" name="Ioan" age="25" />
-      <StatefulGreeting greeting="I'm a stateful class component!" />
+      <StatefulGreetingWithPrevState greeting="I'm a stateful class component!" />
     </div>
   );
 }
